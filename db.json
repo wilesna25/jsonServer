@@ -13,7 +13,8 @@
     { "id" : 2, "status" : 0 }
   ],
   "wsreceiver_services": [
-    { "id" : 3, "lost_connections_and_messages" : 8}
+    { "id" : 1, "status " : 1},
+	{"id" : 2, "lost_connections_and_messages" : 33}
   ],
   "general" : {
     "status" : "running dwh"
