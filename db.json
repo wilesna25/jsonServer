@@ -4,18 +4,17 @@
     { "id": 2, "status": 2 }
   ],	
   "nginx_services": [
-    { "id": 1, "active_connections": 20},
-    { "id": 2, "requests": 100 }
+    { "id" : 1, "active_connections" : 20},
+    { "id" : 2, "requests" : 100 }
+  ],	
+  "wsreceiver": [
+    { "id" : 1, "status" : 1},
+    { "id" : 2, "status" : 0 }
   ],
-  //"nginx": [
-  //  { "id": 1, "status": 2},
-  // { "id": 2, "status": 2 }
-  //],
-  //"nginx_services": [
-   // { "id": 1, "active_connections": 0},
-    //{ "id": 2, "requests": 0 }
-  //],
-  "profile": {
-    "name": "hola"
+  "wsreceiver_services": [
+    { "id" : 1, "lost_connections_and_messages" : 8}
+  ],
+  "general" : {
+    "status" : "running dwh"
   }
 }
