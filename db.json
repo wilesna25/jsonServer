@@ -5,7 +5,8 @@
   ],	
   "nginx_services": [
     { "id" : 1, "http" : 20},
-    { "id" : 2, "active_connections" : 22 }
+    { "id" : 2, "active_connections" : 22 },
+    { "id" : 3, "requests" : 512 }
   ],	
   "wsreceiver": [
     { "id" : 1, "status" : 1},
