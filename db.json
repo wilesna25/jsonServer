@@ -2,12 +2,12 @@
   "nginx": [
     { "id": 1, "status": 1 },
     { "id": 2, "status": 2 }
-  ],
+  ],	
   "nginx_services": [
     { "id": 1, "active_connections": 20},
     { "id": 2, "requests": 100 }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "hola"
   }
 }
