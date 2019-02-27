@@ -5,8 +5,8 @@
   ],	
   "nginx_services": [
     { "id" : 1, "http" : 20},
-    { "id" : 2, "active_connections" : 22 },
-    { "id" : 3, "requests" : 512 }
+    { "id" : 2, "active_connections" : 25 },
+    { "id" : 3, "requests" : 600 }
   ],	
   "wsreceiver": [
     { "id" : 1, "status" : 1},
@@ -14,7 +14,7 @@
   ],
   "wsreceiver_services": [
     { "id" : 1, "status " : 1},
-	{"id" : 2, "lost_connections_and_messages" : 33}
+	{"id" : 2, "lost_connections_and_messages" : 50}
   ],
   "general" : {
     "status" : "running dwh"
